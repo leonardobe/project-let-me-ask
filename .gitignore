@@ -1,0 +1,51 @@
+# Arquivos temporários e backups
+*~
+*.sw[mnpcod]
+.tmp
+*.tmp
+*.tmp.*
+UserInterfaceState.xcuserstate
+$RECYCLE.BIN/
+*.log
+log.txt
+
+# Build e cobertura
+/.sourcemaps
+/.versions
+/coverage
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node (ignora node_modules de qualquer pasta)
+**/node_modules
+npm-debug.log*
+yarn-error.log*
+
+# Angular/Ionic/React outputs
+**/www
+**/build
+**/dist
+
+# IDEs e editores
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# VS Code (ignora configs locais, mas mantém tasks e launch)
+**/.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente (não subir chaves!)
+.env
