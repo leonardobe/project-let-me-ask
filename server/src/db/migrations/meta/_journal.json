@@ -15,6 +15,13 @@
       "when": 1752426447346,
       "tag": "0001_tricky_darwin",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752459543018,
+      "tag": "0002_thick_blindfold",
+      "breakpoints": true
     }
   ]
 }
